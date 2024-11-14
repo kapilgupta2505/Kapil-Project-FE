@@ -22,7 +22,7 @@ import androidx.compose.ui.unit.sp
 import com.example.kapilproject.ui.theme.KapilProjectTheme
 import androidx.compose.foundation.Image
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.res.stringResource.
+import androidx.compose.ui.res.stringResource
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
