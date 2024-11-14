@@ -1,6 +1,5 @@
 package com.example.kapilproject
 
-import android.media.Image
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -54,7 +53,8 @@ fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
             text = message,
             fontSize = 100.sp,
             lineHeight = 116.sp,
-            textAlign = TextAlign.Center
+            textAlign = TextAlign.Center,
+           // modifier = Modifier.background(color = Color.Green)
         )
         Text(
             text = from,
@@ -66,7 +66,7 @@ fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
     }
 }
 @Composable
-fun GreetingImage(message: String, from: String, modifier: Modifier = Modifier) {
+fun GreetingImage(message: String, from: String) {
     val image = painterResource(R.drawable.androidparty)
     Image(
         painter = image,
