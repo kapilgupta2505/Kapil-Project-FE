@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Kapil Project"
 include(":app")
- 
+include(":Common")
